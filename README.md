@@ -33,7 +33,6 @@ They plan to conduct an AB test where:
 
 1. Control Group (Group A): Visitors are shown the existing website layout (control) without any changes.
 2. Experimental Group (Group B): Visitors are shown the new website layout (experimental) that the company wants to test.
-Objective:
 
 The primary objective of the AB test is to determine if the new website layout (experimental group) leads to a statistically significant increase in conversion rates 
 compared to the existing layout (control group).
