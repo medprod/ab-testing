@@ -14,17 +14,17 @@ To accept/reject the null hypothesis, we need to determine the right sample size
 main parameters:
 1. Chosen statistical power
 2. Chosen significance level
-3. Conversion rate value of out control group (version A)
+3. Conversion rate value of our control group (version A)
 4. Minimum difference between values of versions A&B conversion rates to be identified
 5. One or Two-tailed test
 
-## One/Two Tailed Test
+## One/Two-Tailed Test
 One-Tailed Test: A one-tailed test is used  we want to check the significance of the observed positive difference in variations conversion 
-rates (i.e. our goal is to replace variation A with variation B if the latter has better conversion rate).
+rates (i.e. our goal is to replace variation A with variation B if the latter has a better conversion rate).
 
-Two-Tailed test: A two-tailed test is used if we want to check whether conversion rate of A and B differ (i.e. we are interested in both positive and negative difference)
+Two-Tailed test: A two-tailed test is used if we want to check whether the conversion rate of A and B differ (i.e. we are interested in both positive and negative differences)
 
-## Example Scneario:
+## Example Scenario:
 Let's consider a scenario for an online e-commerce platform that wants to conduct an AB test to evaluate the effectiveness of a new website 
 layout in improving conversion rates. Here's the scenario:
 
