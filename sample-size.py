@@ -1,4 +1,4 @@
-#1-tail-test
+#one-tailed and two-tailed hypothesis testing
 
 from scipy.stats import norm
 import math
