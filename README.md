@@ -49,3 +49,7 @@ Parameters:
 ## Objective
 - Control Group Size: To be determined based on the desired statistical power, significance level, baseline conversion rate, and minimum detectable effect.
 - Experimental Group Size: Typically, the control and experimental groups are of equal size for fairness and comparability in the AB test.
+
+## Result
+When the One-Tailed-Test was performed, the sample size per group was approximately 3024 (3023.270486457668 to be exact) and for Two-Tailed-Test, the sample size per group
+was approximately 3839 (3838.1021900967057 to be exact). 
