@@ -47,5 +47,5 @@ Parameters:
 5. Performing both One and Two-Tailed test
 
 ## Objective
-Control Group Size: To be determined based on the desired statistical power, significance level, baseline conversion rate, and minimum detectable effect.
-Experimental Group Size: Typically, the control and experimental groups are of equal size for fairness and comparability in the AB test.
+- Control Group Size: To be determined based on the desired statistical power, significance level, baseline conversion rate, and minimum detectable effect.
+- Experimental Group Size: Typically, the control and experimental groups are of equal size for fairness and comparability in the AB test.
