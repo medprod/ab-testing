@@ -65,18 +65,3 @@ std_err_a, std_err_b = standardErr(cr_control, cr_var, n, tail_input)
 z_new = re_ZScore(cr_control, cr_var, std_err_a, std_err_b)
 finalVal = pValue(z_new)
 print("The p-value:", finalVal)
-
-    
-    
-
-
-
-
-
-
-
-
-
-# p_value = 2 * (1 - norm.cdf(abs(z_score)))
-
-# print("The p-value associated with a z-score of approximately 2.4860 is:", p_value)
