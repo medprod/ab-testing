@@ -63,5 +63,10 @@ def pValue(z_new):
 n = sampleSize(sig_lvl, power, cr_control, min_diff, tail_input)
 std_err_a, std_err_b = standardErr(cr_control, cr_var, n, tail_input)
 z_new = re_ZScore(cr_control, cr_var, std_err_a, std_err_b)
-finalVal = pValue(z_new)
-print("The p-value:", finalVal)
+p_value = pValue(z_new)
+print("The p-value:", p_value)
+
+if p_value < sig_lvl:
+    print("We reject the null hypothesis, meaning there exists change between versions A and B.")
+elif p_value > sig_lvl:
+    print("We fail to reject the null hypothesis. Experiment did not achieve statistical significance.")
