@@ -52,3 +52,19 @@ Parameters:
 ## Result
 When the One-Tailed-Test was performed, the sample size per group was approximately 3024 (3023.270486457668 to be exact) and for Two-Tailed-Test, the sample size per group
 was approximately 3839 (3838.1021900967057 to be exact). 
+
+
+## Is our experiment Stastically Significant?
+Essentially, proving whether our output is statistically significant tells us whether we can trust the observed results or not. 
+The higher this value, the more trust we can have in our results (as it's not due to randomness).
+
+The steps I followed to determine this:
+1. Choose a test
+2. Determine the sample size
+3. Determine significance level
+4. Compute Standard Error of both A & B
+5. Calculate Standard Error Difference
+6. Calculate Z-score using conversion rates of A & b + SE Difference
+7. Use the z-score to calculate p-value
+8. Compare p-value to significance level to conclude observations
+
